@@ -47,6 +47,7 @@ Lastly, we will save recognized label and count objects on each image. For examp
 
 `output[output.labels=='person'].groupby(["photos"]).count().reset_index()`
 
+
 ## Learn More
 
 You can learn more in [Tingting Duan's Project Portfolio](https://tingting0618.github.io).
