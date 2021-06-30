@@ -1,4 +1,4 @@
-# Object Detection And Image Recognition (Batch Processing)
+# Object Detection and Image Recognition (Batch Processing)
 
 ## Goal
 The goal of this project is to train the computer to recognize objects on an image. 
