@@ -28,7 +28,8 @@ The model will automatically recognize people and count the number of people on 
 
 To start, we will load pre-trained yolo model. 
 
-`#load yolo
+``` 
+#load yolo
 net = cv2.dnn.readNet("yolov3.weights","yolov3.cfg")
 
 classes = []
@@ -37,7 +38,8 @@ with open("coco.names","r") as f:
 
 layer_names = net.getLayerNames()
 output_layers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
-colors = np.random.uniform(0, 255, size=(len(classes), 3))`
+colors = np.random.uniform(0, 255, size=(len(classes), 3))
+``` 
 
 Then, we will recognize objects on each image. Please see detailed code in the Jupyter Notebook.
 
