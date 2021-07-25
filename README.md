@@ -50,5 +50,5 @@ Lastly, we will save recognized label and count objects on each image. For examp
 
 ## Learn More
 
-You can learn more in [Tingting Duan's Project Portfolio](https://tingting0618.github.io).
+For more information, please check out the [Project Portfolio](https://tingting0618.github.io).
 
