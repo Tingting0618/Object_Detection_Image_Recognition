@@ -46,9 +46,3 @@ Then, we will recognize objects on each image. Please see detailed code in the J
 Lastly, we will save recognized label and count objects on each image. For example, we can count the number of people on each image.
 
 `output[output.labels=='person'].groupby(["photos"]).count().reset_index()`
-
-
-## Learn More
-
-For more information, please check out the [Project Portfolio](https://tingting0618.github.io).
-
